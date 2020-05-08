@@ -5,4 +5,14 @@ baseurl: "" # the subpath of your site, e.g. /blog/
 url: "https://www.feavini.com" # the base hostname & protocol for your site
 
 markdown: kramdown
-remote_theme: volny/creative-theme-jekyll
+
+# remote_theme: raviriley/agency-jekyll-theme 
+# remote_theme: volny/creative-theme-jekyll
+remote_theme: matthiaslischka/jekyll-uno
+
+plugins:
+  - jekyll-paginate
+  - jekyll-remote-theme
+  - jekyll-include-cache
+
+exclude: ['README.md', 'Gemfile', 'Gemfile.lock', '.travis.yml', 'vendor']
