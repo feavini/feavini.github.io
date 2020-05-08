@@ -2,13 +2,14 @@ title: Fea Vini
 email:
 description: Fea Vini, Azienda Agricola Fea
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "https://www.feavini.com" # the base hostname & protocol for your site
+url: "https://feavini.com" # the base hostname & protocol for your site
 
 markdown: kramdown
 
 # remote_theme: raviriley/agency-jekyll-theme 
+# remote_theme: matthiaslischka/jekyll-uno
 # remote_theme: volny/creative-theme-jekyll
-remote_theme: matthiaslischka/jekyll-uno
+remote_theme: vvalchev/creative-theme-jekyll-new
 
 plugins:
   - jekyll-paginate
