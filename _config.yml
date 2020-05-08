@@ -1,4 +1,4 @@
-title: Fea Vini
+title: "🍷 Azienda Agricola Fea 🍇"
 email:
 description: Fea Vini, Azienda Agricola Fea
 baseurl: "" # the subpath of your site, e.g. /blog/
@@ -6,14 +6,20 @@ url: "https://feavini.com" # the base hostname & protocol for your site
 
 markdown: kramdown
 
-# remote_theme: raviriley/agency-jekyll-theme 
-# remote_theme: matthiaslischka/jekyll-uno
-# remote_theme: volny/creative-theme-jekyll
-remote_theme: vvalchev/creative-theme-jekyll-new
+remote_theme: mmistakes/minimal-mistakes@4.19.2
 
 plugins:
   - jekyll-paginate
   - jekyll-remote-theme
   - jekyll-include-cache
 
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: pages 
+    values:
+      layout: single
+
 exclude: ['README.md', 'Gemfile', 'Gemfile.lock', '.travis.yml', 'vendor']
+include: ["_pages"] 
