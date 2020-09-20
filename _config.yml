@@ -13,6 +13,11 @@ plugins:
   - jekyll-remote-theme
   - jekyll-include-cache
 
+collections:
+  vini:
+    output: true
+    permalink: /:collection/:path/
+
 defaults:
   # _posts
   - scope:
@@ -20,6 +25,14 @@ defaults:
       type: pages 
     values:
       layout: single
+  # _portfolio
+  - scope:
+      path: ""
+      type: vini 
+    values:
+      layout: single
+      author_profile: false
+      share: false
 
 exclude: ['README.md', 'Gemfile', 'Gemfile.lock', '.travis.yml', 'vendor']
 include: ["_pages"] 
