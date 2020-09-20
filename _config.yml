@@ -18,14 +18,15 @@ collections:
     output: true
     permalink: /:collection/:path/
 
+# Note: links top-right are found in _data/navigation.yml
 defaults:
-  # _posts
+  # _pages
   - scope:
       path: ""
       type: pages 
     values:
       layout: single
-  # _portfolio
+  # _vini
   - scope:
       path: ""
       type: vini 

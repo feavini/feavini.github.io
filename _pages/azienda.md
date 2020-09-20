@@ -2,6 +2,39 @@
 layout: single
 title: L'Azienda 
 permalink: /azienda/
+header:
+  overlay_image: /assets/images/azienda/header.jpg
+  overlay_filter: 0.5 # same as adding an opacity of 0.5 to a black background
+gallery:
+  # 'url' is the bigger version
+  - url: /assets/images/azienda/C0001.jpg
+    image_path: /assets/images/azienda/C0001.jpg
+    alt: "placeholder image 1"
+    title: "Image 1 title caption"
+  - url: /assets/images/azienda/C0002.jpg
+    image_path: /assets/images/azienda/C0002.jpg
+    alt: "placeholder image 1"
+    title: "Image 1 title caption"
+  - url: /assets/images/azienda/C0003.jpg
+    image_path: /assets/images/azienda/C0003.jpg
+    alt: "placeholder image 1"
+    title: "Image 1 title caption"
+  - url: /assets/images/azienda/C0004.jpg
+    image_path: /assets/images/azienda/C0004.jpg
+    alt: "placeholder image 1"
+    title: "Image 1 title caption"
+  - url: /assets/images/azienda/C0005.jpg
+    image_path: /assets/images/azienda/C0005.jpg
+    alt: "placeholder image 1"
+    title: "Image 1 title caption"
+  - url: /assets/images/azienda/C0006.jpg
+    image_path: /assets/images/azienda/C0006.jpg
+    alt: "placeholder image 1"
+    title: "Image 1 title caption"
+  - url: /assets/images/azienda/C0007.jpg
+    image_path: /assets/images/azienda/C0007.jpg
+    alt: "placeholder image 1"
+    title: "Image 1 title caption"
 ---
 
 L’Azienda Agricola Fea si trova a Calosso, un paesino immerso tra le colline del
@@ -21,3 +54,6 @@ vino racchiude l’antica esperienza di chi ha iniziato a farlo e la continuità
 di chi ha creduto nella propria capacità di far conoscere e apprezzare agli
 altri ciò che queste vigne da sempre rappresentano: la scopo della propria
 vita. 
+
+{% include gallery id="gallery" layout="half" caption="This is a half gallery layout example." %}
+

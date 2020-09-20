@@ -2,5 +2,9 @@
 main:
   - title: "Home"
     url: /
-  - title: "About"
-    url: /about/
+  - title: "L'azienda"
+    url: /azienda/
+  - title: "La cantina"
+    url: /cantina/
+  - title: "I vini"
+    url: /vini/
