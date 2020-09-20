@@ -1,0 +1,7 @@
+vendor/
+**/*.swp
+**/*.swo
+Gemfile.lock
+.bundle/
+.jekyll-metadata
+_site/

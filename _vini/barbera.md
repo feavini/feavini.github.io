@@ -12,9 +12,8 @@ header:
   # image: /assets/images/etichette/barbera.jpg
   teaser: /assets/images/etichette/barbera.jpg
 ---
-
+- **Vino**: Barbera d'Asti DOCG
 - **Colore**: rosso rubino
-- **Vitigno**:
 - **Profumo**: delicato, gradevolmente intenso 
 - **Sapore**: asciutto, robusto, armonico, vellutato
 - **Abbinamenti**: bagna cauda, bolliti, formaggi
