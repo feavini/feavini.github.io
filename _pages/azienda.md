@@ -1,7 +1,7 @@
 ---
 layout: single
 title: L'Azienda 
-permalink: /about/
+permalink: /azienda/
 ---
 
 L’Azienda Agricola Fea si trova a Calosso, un paesino immerso tra le colline del
