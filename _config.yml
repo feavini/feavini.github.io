@@ -1,8 +1,10 @@
 title: Azienda Agricola Fea
+locale: "it-IT"
 email:
 description: Fea Vini, Azienda Agricola Fea
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "https://feavini.com" # the base hostname & protocol for your site
+repository: feavini/feavini.github.io
 
 markdown: kramdown
 
