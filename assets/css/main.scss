@@ -4,11 +4,136 @@
 
 @charset "utf-8";
 
-$background-color: #2d0511;
-$text-color: white;
-$masthead-link-color: white;
+/*$right-sidebar-width-narrow: 1000px; */
+$right-sidebar-width: 100px !default;
+
+$paragraph-indent: true;
+
+$serif              : Palatino, Georgia, Times New Roman, Times, serif;
+$sans-serif-narrow  : "Cormorant SC", -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
+
+$global-font-family : $serif;
+$header-font-family : $sans-serif-narrow;
+
+$wine-red: #850003;
+
+/* Center language flags and other links in the masthead */
+.visible-links {
+    align-items: center;
+}
+
+.lang-selection {
+    font-size: 0.8em;
+}
+
+.greedy-nav .lang-selection.unselected a, .greedy-nav .lang-selection a {
+    margin-left: 2px;
+    margin-right: 2px;
+}
+
+.lang-selection.unselected {
+    filter: grayscale(1);
+}
+
+.lang-selection.unselected:hover, .lang-selection:hover { 
+    filter: grayscale(0);
+}
+
+.page {
+    padding-right: 0em !important;
+}
+
+/* Align right edge of figures with the page margin */
+figure.full {
+    margin-right: 0em !important;
+}
+
+/* Show full pictures of the wine labels */
+article .archive__item-teaser {
+    max-height: unset !important;
+}
+
+footer strong a, 
+.page__footer a,
+.social-icons .fa-facebook, .social-icons .fa-facebook-square, .social-icons .fa-facebook-f {
+    color: $wine-red !important;
+    font-family: $global-font-family;
+    text-transform: initial;
+    font-size: 1em;
+}
+
+footer .page__footer-follow li {
+    font-size: unset;
+}
+
+footer .fa-fw {
+    vertical-align: middle;
+    font-size: 0.65em;
+}
+
+footer strong a, 
+.page__footer a,
+.social-icons .fa-facebook, .social-icons .fa-facebook-square, .social-icons .fa-facebook-f {
+    color: $wine-red;
+    font-family: $global-font-family;
+    text-transform: initial;
+    font-size: 1em;
+}
+
+footer strong a .fa-fw {
+    vertical-align: middle;
+    font-size: 0.65em;
+}
+
+footer .powered {
+    /* Do not show copyright to visitors but let it count for browsers. */
+    color: #f2f3f3 !important;
+}
+
+footer address {
+    float: right
+}
+
+footer address .directions {
+   /*
+   font-family: $header-font-family; 
+   */
+   font-style: normal;
+}
+
+.masthead .masthead__inner-wrap {
+    padding: 0.5em;
+}
 
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
 
+/*
+.masthead {
+    border-bottom: 1px solid $wine-red;
+}
+*/
 
+/*
+a {
+    color: $wine-red !important;
+    font-weight: bold;
+}
+*/
+
+.greedy-nav a:hover {
+    color: $wine-red;
+}
+
+.greedy-nav .visible-links a:before {
+    {% comment %}
+    /* The line under the navigation links is a weird thing. Check the css. */
+    {% endcomment %}
+    background: $wine-red;
+}
+
+/*
+#footer.page__footer {
+    border-top: 1px solid $dark-gray;
+}
+*/

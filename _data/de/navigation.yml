@@ -1,0 +1,8 @@
+
+main:
+  - title: "Das Weingut"
+    url: /
+  - title: "Der Weinkeller"
+    url: /cantina/
+  - title: "Unsere Weine"
+    url: /vini/

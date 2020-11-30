@@ -1,19 +1,44 @@
-title: Azienda Agricola Fea
-locale: "it-IT"
-email:
+title: Azienda Agricola Fea di Valente Giuseppe
+email: aziendafea@gmail.com
 description: Fea Vini, Azienda Agricola Fea
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "https://feavini.com" # the base hostname & protocol for your site
 repository: feavini/feavini.github.io
+logo: "/assets/images/logo.png"
+masthead_title: " "
+
+
+# i18n
+locale: "it-IT"
+languages: ["it", "en", "de"]
+default_lang: "it"
+exclude_from_localization: ["javascript", "images", "css", "assets", "Old Website"]
+parallel_localization: true
+  #index:
+  # it: index.it.md
+  # en: index.en.md
+  # de: index.de.md
+lang_vars: ['locale']
+
+
+search: false 
+
+footer:
+  links:
+    - label: "Facebook"
+      icon: "fa fa-fw fa-facebook-square"
+      url: "https://www.facebook.com/feavini/"
+
 
 markdown: kramdown
 
-remote_theme: mmistakes/minimal-mistakes@4.19.2
+remote_theme: mmistakes/minimal-mistakes@4.21.0
 
 plugins:
   - jekyll-paginate
   - jekyll-remote-theme
   - jekyll-include-cache
+github: [metadata]
 
 collections:
   vini:
@@ -28,6 +53,7 @@ defaults:
       type: pages 
     values:
       layout: single
+      author_profile: false
   # _vini
   - scope:
       path: ""

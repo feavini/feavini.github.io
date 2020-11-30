@@ -1,11 +1,11 @@
 ---
 layout: single
 title: Così... una volta  
-excerpt: TBC
+excerpt: ""
 header:
-  overlay_image: /assets/images/vini/cosi_una_volta.jpg
-  overlay_filter: 0.5 # same as adding an opacity of 0.5 to a black background
-  teaser: /assets/images/vini/cosi_una_volta.jpg
+  overlay_image: /assets/images/vini/cosi_una_volta.png
+  overlay_filter: 0.5
+  teaser: /assets/images/vini/cosi_una_volta.png
 ---
 
 - **Vino**: Piemonte Moscato Passito DOC

@@ -1,0 +1,25 @@
+<div class="address">
+<address>
+    {% if site.active_lang == "en" %}
+    <b><i class="fa fa-fw fa-location-arrow"></i>Address</b>
+    {% elsif site.active_lang == "de" %}
+    <b><i class="fa fa-fw fa-location-arrow"></i>Anschrift</b>
+    {% else %}
+    <b><i class="fa fa-fw fa-location-arrow"></i>Indirizzo</b>
+    {% endif %}
+    <br/>
+    via Fea 11 <br/>
+    14052 Calosso (AT) <br/>
+    Italia
+    <br/>
+    <div class="map">
+        {% if site.active_lang == "en" %}
+        <strong><a class="directions" href="/arrivare"><i class="fa fa-fw fa-map"></i> how to get there</strong></a>
+        {% elsif site.active_lang == "de" %}
+        <strong><a class="directions" href="/arrivare"><i class="fa fa-fw fa-map"></i> Anfahrtsplan</strong></a>
+        {% else %}
+        <strong><a class="directions" href="/arrivare"><i class="fa fa-fw fa-map"></i> come arrivare</strong></a>
+        {% endif %}
+    </div>
+</address>
+</div>

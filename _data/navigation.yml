@@ -1,9 +1,7 @@
 
 main:
-  - title: "Inizio"
-    url: /
   - title: "L'azienda"
-    url: /azienda/
+    url: /
   - title: "La cantina"
     url: /cantina/
   - title: "I vini"

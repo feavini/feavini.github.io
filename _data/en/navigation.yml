@@ -1,0 +1,8 @@
+
+main:
+  - title: "The Azienda"
+    url: /
+  - title: "The Cellar"
+    url: /cantina/
+  - title: "Our wines"
+    url: /vini/
