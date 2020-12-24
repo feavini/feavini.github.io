@@ -115,8 +115,13 @@ footer address .directions {
 */
 
 a {
-    color: $wine-red !important;
+    color: $wine-red;
     font-weight: bold;
+}
+
+.masthead .greedy-nav a {
+    color: $gray;
+    font-weight: normal;
 }
 
 .greedy-nav a:hover {
