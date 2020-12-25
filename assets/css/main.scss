@@ -123,6 +123,14 @@ a {
     font-weight: bold;
 }
 
+a:visited {
+   color: $gray;
+}
+
+a:hover {
+    color: $wine-red;
+}
+
 .masthead .greedy-nav a {
     color: $gray;
     font-weight: normal;
@@ -144,3 +152,13 @@ a {
     border-top: 1px solid $dark-gray;
 }
 */
+
+/* Next/Prev buttons when a wine is selected */
+nav a.pagination--pager {
+    padding: 0px;
+}
+
+nav a.pagination--pager:hover {
+    background-color: $wine-red;
+}
+
