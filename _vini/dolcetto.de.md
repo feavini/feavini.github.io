@@ -7,7 +7,7 @@ excerpt: ""
 header:
   overlay_image: /assets/images/vini/dolcetto.png
   overlay_filter: 0.5
-  teaser: /assets/images/vini/dolcetto.png
+  teaser: /assets/images/vini/mini/dolcetto.png
 ---
 - **Wein**: Monferrato Dolcetto DOC
 - **Rebsorte**: 100% Dolcetto 

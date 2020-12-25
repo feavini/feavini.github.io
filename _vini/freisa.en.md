@@ -7,7 +7,7 @@ excerpt: ""
 header:
   overlay_image: /assets/images/vini/freisa.png
   overlay_filter: 0.5
-  teaser: /assets/images/vini/freisa.png
+  teaser: /assets/images/vini/mini/freisa.png
 ---
 
 - **Wine**: Freisa d'Asti DOC

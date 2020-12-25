@@ -7,7 +7,7 @@ excerpt: ""
 header:
   overlay_image: /assets/images/vini/gamba.png
   overlay_filter: 0.5
-  teaser: /assets/images/vini/gamba.png
+  teaser: /assets/images/vini/mini/gamba.png
 ---
 - **Wein**: Rotwein, Calosso DOC 
 - **Rebsorte**: 100% _gamba rossa_

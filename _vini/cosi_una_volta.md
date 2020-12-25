@@ -5,7 +5,7 @@ excerpt: ""
 header:
   overlay_image: /assets/images/vini/cosi_una_volta.png
   overlay_filter: 0.5
-  teaser: /assets/images/vini/cosi_una_volta.png
+  teaser: /assets/images/vini/mini/cosi_una_volta.png
 ---
 
 - **Vino**: Piemonte Moscato Passito DOC

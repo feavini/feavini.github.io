@@ -7,7 +7,7 @@ excerpt: ""
 header:
   overlay_image: /assets/images/vini/nebbiolo.png
   overlay_filter: 0.5
-  teaser: /assets/images/vini/nebbiolo.png
+  teaser: /assets/images/vini/mini/nebbiolo.png
 ---
 - **Wein**: Langhe Nebbiolo DOC
 - **Rebsorte**: 100% _Nebbiolo_

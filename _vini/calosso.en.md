@@ -7,7 +7,7 @@ excerpt: ""
 header:
   overlay_image: /assets/images/vini/gamba.png
   overlay_filter: 0.5
-  teaser: /assets/images/vini/gamba.png
+  teaser: /assets/images/vini/mini/gamba.png
 ---
 - **Wine**: rosso, Calosso DOC 
 - **Vine variety**: 100 % _gamba rossa_

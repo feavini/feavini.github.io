@@ -7,7 +7,7 @@ excerpt: ""
 header:
   overlay_image: /assets/images/vini/rocca_fea.png
   overlay_filter: 0.5
-  teaser: /assets/images/vini/rocca_fea.png
+  teaser: /assets/images/vini/mini/rocca_fea.png
 ---
 
 - **Vino**: Monferrato Rosso DOC

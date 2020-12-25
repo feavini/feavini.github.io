@@ -7,7 +7,7 @@ excerpt: ""
 header:
   overlay_image: /assets/images/vini/barbera.png
   overlay_filter: 0.5
-  teaser: /assets/images/vini/barbera.png
+  teaser: /assets/images/vini/mini/barbera.png
 ---
 - **Wein**: Barbera d'Asti DOCG
 - **Rebsorte**: 100% Barbera
