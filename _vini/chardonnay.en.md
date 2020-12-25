@@ -9,6 +9,8 @@ header:
   overlay_filter: 0.5
   teaser: /assets/images/vini/mini/chardonnay.png
 ---
+![Chardonnay](/assets/images/vini/chardonnay.png){: .align-right}
+
 - **Wine**: white 
 - **Vine variety**: 100% chardonnay 
 - **Colour**: greenish-yellow with golden hues

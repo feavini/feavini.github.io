@@ -9,6 +9,8 @@ header:
   overlay_filter: 0.5
   teaser: /assets/images/vini/mini/barbera.png
 ---
+![Barbera](/assets/images/vini/barbera.png){: .align-right}
+
 - **Wine**: Barbera d'Asti DOCG
 - **Vine variety**: 100% Barbera
 - **Colour**: ruby red 

@@ -9,6 +9,8 @@ header:
   overlay_filter: 0.5
   teaser: /assets/images/vini/mini/chardonnay.png
 ---
+![Chardonnay](/assets/images/vini/chardonnay.png){: .align-right}
+
 - **Wein**: Weiß
 - **Rebsorte**: 100% Chardonnay 
 - **Farbe**: grünlich-gelb mit goldenen Reflexen

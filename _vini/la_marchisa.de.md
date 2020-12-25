@@ -9,6 +9,8 @@ header:
   overlay_filter: 0.5
   teaser: /assets/images/vini/mini/la_marchisa.png
 ---
+![La Marchisa](/assets/images/vini/la_marchisa.png){: .align-right}
+
 - **Wein**: Barbera d'Asti Superiore DOCG
 - **Rebsorte**: 100% Barbera
 - **Farbe**: tief Rubinrot mit Granat Reflexionen

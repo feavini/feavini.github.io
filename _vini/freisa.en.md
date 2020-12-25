@@ -9,6 +9,7 @@ header:
   overlay_filter: 0.5
   teaser: /assets/images/vini/mini/freisa.png
 ---
+![Freisa](/assets/images/vini/freisa.png){: .align-right}
 
 - **Wine**: Freisa d'Asti DOC
 - **Vine variety**: 100% Freisa 

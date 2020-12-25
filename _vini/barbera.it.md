@@ -9,7 +9,7 @@ header:
   overlay_filter: 0.5
   teaser: /assets/images/vini/mini/barbera.png
 ---
-![Calosso](/assets/images/vini/barbera.png){: .align-right}
+![Barbera](/assets/images/vini/barbera.png){: .align-right}
 
 - **Vino**: Barbera d'Asti DOCG
 - **Vitigno**: 100% Barbera

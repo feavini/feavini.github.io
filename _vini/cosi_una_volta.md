@@ -7,6 +7,8 @@ header:
   overlay_filter: 0.5
   teaser: /assets/images/vini/mini/cosi_una_volta.png
 ---
+![Così... una volta](/assets/images/vini/cosi_una_volta.png){: .align-right}
+
 
 - **Vino**: Piemonte Moscato Passito DOC
 - **Colore**: giallo oro tendente all'ambrato più o meno intenso

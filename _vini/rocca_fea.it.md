@@ -9,6 +9,7 @@ header:
   overlay_filter: 0.5
   teaser: /assets/images/vini/mini/rocca_fea.png
 ---
+![Rocca Fea](/assets/images/vini/rocca_fea.png){: .align-right}
 
 - **Vino**: Monferrato Rosso DOC
 - **Vitigno**: nebbiolo e gambarossa (varietà autoctona locale)

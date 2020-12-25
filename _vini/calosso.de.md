@@ -9,6 +9,8 @@ header:
   overlay_filter: 0.5
   teaser: /assets/images/vini/mini/gamba.png
 ---
+![Calosso](/assets/images/vini/gamba.png){: .align-right}
+
 - **Wein**: Rotwein, Calosso DOC 
 - **Rebsorte**: 100% _gamba rossa_
 - **Farbe**: Hell Rubinrot

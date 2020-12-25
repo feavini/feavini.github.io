@@ -9,6 +9,8 @@ header:
   overlay_filter: 0.5
   teaser: /assets/images/vini/mini/nebbiolo.png
 ---
+![Langhe Nebbiolo](/assets/images/vini/nebbiolo.png){: .align-right}
+
 - **Wein**: Langhe Nebbiolo DOC
 - **Rebsorte**: 100% _Nebbiolo_
 - **Farbe**: Rubinrot

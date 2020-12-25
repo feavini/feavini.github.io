@@ -9,6 +9,8 @@ header:
   overlay_filter: 0.5
   teaser: /assets/images/vini/mini/rocca_fea.png
 ---
+![Rocca Fea](/assets/images/vini/rocca_fea.png){: .align-right}
+
 - **Wein**: Monferrato Rosso DOC
 - **Rebsorte**: _nebbiolo_ und _gambarossa_ (lokale Rebsorte)
 - **Farbe**: Rubinrot mit orangefarbenen Reflexen

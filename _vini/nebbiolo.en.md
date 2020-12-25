@@ -9,6 +9,8 @@ header:
   overlay_filter: 0.5
   teaser: /assets/images/vini/mini/nebbiolo.png
 ---
+![Langhe Nebbiolo](/assets/images/vini/nebbiolo.png){: .align-right}
+
 - **Wine**: Langhe Nebbiolo DOC
 - **Vine variety**: 100% _nebbiolo_
 - **Colour**: ruby red 

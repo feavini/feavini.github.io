@@ -9,6 +9,8 @@ header:
   overlay_filter: 0.5
   teaser: /assets/images/vini/mini/dolcetto.png
 ---
+![Dolcetto](/assets/images/vini/dolcetto.png){: .align-right}
+
 - **Wine**: Monferrato Dolcetto DOC
 - **Vine variety**: 100% Dolcetto 
 - **Colour**: ruby red with violet hues

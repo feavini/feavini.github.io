@@ -9,6 +9,8 @@ header:
   overlay_filter: 0.5
   teaser: /assets/images/vini/mini/barbera.png
 ---
+![Barbera](/assets/images/vini/barbera.png){: .align-right}
+
 - **Wein**: Barbera d'Asti DOCG
 - **Rebsorte**: 100% Barbera
 - **Farbe**: Rubinrot 

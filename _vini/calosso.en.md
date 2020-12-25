@@ -9,6 +9,8 @@ header:
   overlay_filter: 0.5
   teaser: /assets/images/vini/mini/gamba.png
 ---
+![Calosso](/assets/images/vini/gamba.png){: .align-right}
+
 - **Wine**: rosso, Calosso DOC 
 - **Vine variety**: 100 % _gamba rossa_
 - **Colour**: light ruby red

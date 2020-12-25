@@ -9,6 +9,8 @@ header:
   overlay_filter: 0.5
   teaser: /assets/images/vini/mini/juliette.png
 ---
+![Juliette](/assets/images/vini/juliette.png){: .align-right}
+
 - **Vino**: rosato 
 - **Vitigno**: uve autoctone prodotte in azienda
 - **Colore**: rosa tenue con riflessi aranciati
