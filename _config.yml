@@ -26,13 +26,13 @@ search: false
 footer:
   links:
     - label: "Facebook"
-      icon: "fab fa-fw fa-facebook"
+      icon: "fab fa-fw fa-facebook-square"
       url: "https://www.facebook.com/feavini/"
 
 
 markdown: kramdown
 
-remote_theme: mmistakes/minimal-mistakes@4.21.0
+remote_theme: mmistakes/minimal-mistakes@4.19.2
 
 plugins:
   - jekyll-paginate
