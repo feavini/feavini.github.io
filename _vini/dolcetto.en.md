@@ -4,6 +4,7 @@ permalink: /vini/dolcetto
 layout: single
 title: Dolcetto
 excerpt: "" 
+order: 8
 header:
   overlay_image: /assets/images/vini/dolcetto.png
   overlay_filter: 0.5

@@ -45,6 +45,8 @@ collections:
   vini:
     output: true
     permalink: /:collection/:path/
+    # Doesn't really work
+    # sort_by: order
 
 # Note: links top-right are found in _data/navigation.yml
 defaults:

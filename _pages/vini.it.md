@@ -6,5 +6,7 @@ permalink: /vini/
 collection: vini
 entries_layout: grid
 classes: wide
-sort_by: title
+# Doesn't really work:
+# sort_by: order
+# sort_order: reverse
 ---

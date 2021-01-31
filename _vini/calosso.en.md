@@ -4,6 +4,7 @@ permalink: /vini/calosso
 layout: single
 title: Calosso
 excerpt: ""
+order: 7
 header:
   overlay_image: /assets/images/vini/gamba.png
   overlay_filter: 0.5

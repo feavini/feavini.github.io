@@ -4,6 +4,7 @@ permalink: /vini/nebbiolo
 layout: single
 title: Langhe Nebbiolo
 excerpt: ""
+order: 4
 header:
   overlay_image: /assets/images/vini/nebbiolo.png
   overlay_filter: 0.5

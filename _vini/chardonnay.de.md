@@ -4,6 +4,7 @@ permalink: /vini/chardonnay
 layout: single
 title: Chardonnay 
 excerpt: ""
+order: 9
 header:
   overlay_image: /assets/images/vini/chardonnay.png
   overlay_filter: 0.5

@@ -2,6 +2,7 @@
 layout: single
 title: Così... una volta  
 excerpt: ""
+order: 1
 header:
   overlay_image: /assets/images/vini/cosi_una_volta.png
   overlay_filter: 0.5

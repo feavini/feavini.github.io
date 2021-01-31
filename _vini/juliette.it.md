@@ -4,6 +4,7 @@ permalink: /vini/juliette
 layout: single
 title: Juliette 
 excerpt: ""
+order: 11
 header:
   overlay_image: /assets/images/vini/juliette.png
   overlay_filter: 0.5

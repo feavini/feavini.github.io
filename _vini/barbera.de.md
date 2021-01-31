@@ -4,6 +4,7 @@ permalink: /vini/barbera
 layout: single
 title: Barbera
 excerpt: ""
+order: 5 
 header:
   overlay_image: /assets/images/vini/barbera.png
   overlay_filter: 0.5

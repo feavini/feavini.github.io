@@ -4,6 +4,7 @@ permalink: /vini/freisa
 layout: single
 title: Freisa
 excerpt: "" 
+order: 6
 header:
   overlay_image: /assets/images/vini/freisa.png
   overlay_filter: 0.5
