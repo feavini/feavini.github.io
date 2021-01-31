@@ -9,7 +9,7 @@ header:
   overlay_filter: 0.5
   teaser: /assets/images/vini/mini/chardonnay.png
 ---
-![Calosso](/assets/images/vini/chardonnay.png){: .align-right}
+![Chardonnay](/assets/images/vini/chardonnay.png){: .align-right}
 
 - **Vino**: bianco 
 - **Vitigno**: 100% chardonnay 

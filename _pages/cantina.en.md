@@ -8,40 +8,26 @@ classes: wide
 header:
   overlay_image: /assets/images/cantina/header.jpg
   overlay_filter: 0.5 # same as adding an opacity of 0.5 to a black background
-gallery:
+gallery-1:
   # 'url' is the bigger version
   - url: /assets/images/cantina/C0001.jpg
     image_path: /assets/images/cantina/C0001.jpg
-    alt: "placeholder image 1"
-    title: "Image 1 title caption"
   - url: /assets/images/cantina/C0002.jpg
     image_path: /assets/images/cantina/C0002.jpg
-    alt: "placeholder image 1"
-    title: "Image 1 title caption"
   - url: /assets/images/cantina/C0003.jpg
     image_path: /assets/images/cantina/C0003.jpg
-    alt: "placeholder image 1"
-    title: "Image 1 title caption"
+gallery-2:
   - url: /assets/images/cantina/C0004.jpg
     image_path: /assets/images/cantina/C0004.jpg
-    alt: "placeholder image 1"
-    title: "Image 1 title caption"
   - url: /assets/images/cantina/C0005.jpg
     image_path: /assets/images/cantina/C0005.jpg
-    alt: "placeholder image 1"
-    title: "Image 1 title caption"
   - url: /assets/images/cantina/C0006.jpg
     image_path: /assets/images/cantina/C0006.jpg
-    alt: "placeholder image 1"
-    title: "Image 1 title caption"
+gallery-3:
   - url: /assets/images/cantina/C0007.jpg
     image_path: /assets/images/cantina/C0007.jpg
-    alt: "placeholder image 1"
-    title: "Image 1 title caption"
   - url: /assets/images/cantina/C0008.jpg
     image_path: /assets/images/cantina/C0008.jpg
-    alt: "placeholder image 1"
-    title: "Image 1 title caption"
 ---
 The transformation and processing of grapes is completely carried out in our
 wine cellars. The results are high quality wines with various aromas and
@@ -54,6 +40,8 @@ example the Rocca Fea, a blending of Nebbiolo and Gamba di Pernice, an
 autochthonous vine variety, and the Moscato-Passito _Così… una
 volta_.
 
+{% include gallery id="gallery-1" layout="third" class="full" %}
+
 The wine cellar has been recently renewed in order to bring to
 lights the _crotin_, ancient underground cellar dug into the ground and used
 in the past as place for the aging of wine and the conservation of
@@ -61,5 +49,6 @@ food. A visit to our cellar will permit you to take a step back in the past
 and to bring back to memory the ancient farm traditions that still today
 represent the basis of our work.
 
-{% include gallery id="gallery" layout="half" class="full" %}
+{% include gallery id="gallery-2" layout="third" class="full" %}
+{% include gallery id="gallery-3" layout="half" class="full" %}
 

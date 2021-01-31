@@ -11,34 +11,24 @@ gallery-1:
   # 'url' is the bigger version
   - url: /assets/images/azienda/C0001.jpg
     image_path: /assets/images/azienda/C0001.jpg
-    alt: "placeholder image 1"
-    title: "Image 1 title caption"
   - url: /assets/images/azienda/C0002.jpg
     image_path: /assets/images/azienda/C0002.jpg
-    alt: "placeholder image 1"
-    title: "Image 1 title caption"
 gallery-2:
   - url: /assets/images/azienda/C0003.jpg
     image_path: /assets/images/azienda/C0003.jpg
-    alt: "placeholder image 1"
-    title: "Image 1 title caption"
   - url: /assets/images/azienda/C0004.jpg
     image_path: /assets/images/azienda/C0004.jpg
-    alt: "placeholder image 1"
-    title: "Image 1 title caption"
   - url: /assets/images/azienda/C0005.jpg
     image_path: /assets/images/azienda/C0005.jpg
-    alt: "placeholder image 1"
-    title: "Image 1 title caption"
-gallery-3:
-  - url: /assets/images/azienda/C0006.jpg
-    image_path: /assets/images/azienda/C0006.jpg
-    alt: "placeholder image 1"
-    title: "Image 1 title caption"
-  - url: /assets/images/azienda/C0007.jpg
-    image_path: /assets/images/azienda/C0007.jpg
-    alt: "placeholder image 1"
-    title: "Image 1 title caption"
+# gallery-3:
+#  - url: /assets/images/azienda/C0006.jpg
+#    image_path: /assets/images/azienda/C0006.jpg
+#    alt: "placeholder image 1"
+#    title: "Image 1 title caption"
+#  - url: /assets/images/azienda/C0007.jpg
+#    image_path: /assets/images/azienda/C0007.jpg
+#    alt: "placeholder image 1"
+#    title: "Image 1 title caption"
 ---
 
 Der Landwirtschaftlicher Betrieb Fea findet sich in Calosso, ein kleines Dorf

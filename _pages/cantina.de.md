@@ -8,40 +8,26 @@ classes: wide
 header:
   overlay_image: /assets/images/cantina/header.jpg
   overlay_filter: 0.5 # same as adding an opacity of 0.5 to a black background
-gallery:
+gallery-1:
   # 'url' is the bigger version
   - url: /assets/images/cantina/C0001.jpg
     image_path: /assets/images/cantina/C0001.jpg
-    alt: "placeholder image 1"
-    title: "Image 1 title caption"
   - url: /assets/images/cantina/C0002.jpg
     image_path: /assets/images/cantina/C0002.jpg
-    alt: "placeholder image 1"
-    title: "Image 1 title caption"
   - url: /assets/images/cantina/C0003.jpg
     image_path: /assets/images/cantina/C0003.jpg
-    alt: "placeholder image 1"
-    title: "Image 1 title caption"
+gallery-2:
   - url: /assets/images/cantina/C0004.jpg
     image_path: /assets/images/cantina/C0004.jpg
-    alt: "placeholder image 1"
-    title: "Image 1 title caption"
   - url: /assets/images/cantina/C0005.jpg
     image_path: /assets/images/cantina/C0005.jpg
-    alt: "placeholder image 1"
-    title: "Image 1 title caption"
   - url: /assets/images/cantina/C0006.jpg
     image_path: /assets/images/cantina/C0006.jpg
-    alt: "placeholder image 1"
-    title: "Image 1 title caption"
+gallery-3:
   - url: /assets/images/cantina/C0007.jpg
     image_path: /assets/images/cantina/C0007.jpg
-    alt: "placeholder image 1"
-    title: "Image 1 title caption"
   - url: /assets/images/cantina/C0008.jpg
     image_path: /assets/images/cantina/C0008.jpg
-    alt: "placeholder image 1"
-    title: "Image 1 title caption"
 ---
 
 Der Prozess der Transformation und Verarbeitung der Trauben erfolgt
@@ -53,12 +39,17 @@ unserer Arbeit. Zu den “großen Klassikern” des Territoriums, wie Barbera D�
 Barbera d’Asti Superiore, Dolcetto und Nebbiolo, verbinden neue und begehrtesten
 Weine mit Hinweisen und Besonderheiten. Beispiele sind der Rocca Fea, eine 
 Ansammlung von Nebbiolo und Gamba di Pernice, ein natives Rebsorte,
-und der Moscato Passito “Così… una volta”. Der Weinkeller wurde vor kurzem 
+und der Moscato Passito “Così… una volta”. 
+
+{% include gallery id="gallery-1" layout="third" class="full" %}
+
+Der Weinkeller wurde vor kurzem 
 renoviert, um die _crotin_ Licht zu bringen (antiken unterirdischen Kellern 
 gegraben in den Tuffstein, einst als Orte für die Alterung der Weine und 
 für die Lagerung von Lebensmitteln verwendet). Mit einem Besuch in unserem
 Weinkeller können Sie einen Sprung in die Vergangenheit machen und in Erinnerung
 die alten Bautraditionen, die noch heute die Grundlage unserer Arbeit bilden, bringen.
 
-{% include gallery id="gallery" layout="half" class="full" %}
+{% include gallery id="gallery-2" layout="third" class="full" %}
+{% include gallery id="gallery-3" layout="half" class="full" %}
 

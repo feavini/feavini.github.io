@@ -11,34 +11,24 @@ gallery-1:
   # 'url' is the bigger version
   - url: /assets/images/azienda/C0001.jpg
     image_path: /assets/images/azienda/C0001.jpg
-    alt: "placeholder image 1"
-    title: "Image 1 title caption"
   - url: /assets/images/azienda/C0002.jpg
     image_path: /assets/images/azienda/C0002.jpg
-    alt: "placeholder image 1"
-    title: "Image 1 title caption"
 gallery-2:
   - url: /assets/images/azienda/C0003.jpg
     image_path: /assets/images/azienda/C0003.jpg
-    alt: "placeholder image 1"
-    title: "Image 1 title caption"
   - url: /assets/images/azienda/C0004.jpg
     image_path: /assets/images/azienda/C0004.jpg
-    alt: "placeholder image 1"
-    title: "Image 1 title caption"
   - url: /assets/images/azienda/C0005.jpg
     image_path: /assets/images/azienda/C0005.jpg
-    alt: "placeholder image 1"
-    title: "Image 1 title caption"
-gallery-3:
-  - url: /assets/images/azienda/C0006.jpg
-    image_path: /assets/images/azienda/C0006.jpg
-    alt: "placeholder image 1"
-    title: "Image 1 title caption"
-  - url: /assets/images/azienda/C0007.jpg
-    image_path: /assets/images/azienda/C0007.jpg
-    alt: "placeholder image 1"
-    title: "Image 1 title caption"
+# gallery-3:
+#  - url: /assets/images/azienda/C0006.jpg
+#    image_path: /assets/images/azienda/C0006.jpg
+#    alt: "placeholder image 1"
+#    title: "Image 1 title caption"
+#  - url: /assets/images/azienda/C0007.jpg
+#    image_path: /assets/images/azienda/C0007.jpg
+#    alt: "placeholder image 1"
+#    title: "Image 1 title caption"
 ---
 
 Fea Agricultural Estate is situated in Calosso, a small town deep in the green hills of Monferrato,
@@ -62,5 +52,7 @@ keeps the ancient experience of who has started doing it and the continuity of w
 in his own capacity to let known and appreciated to the other what these vineyards represent
 from time immemorial: the aim of their own life.
 
+{% comment %}
 {% include gallery id="gallery-3" layout="half" class="full" %}
+{% endcomment %}
 

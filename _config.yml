@@ -10,7 +10,8 @@ masthead_title: " "
 
 # i18n
 locale: "it-IT"
-languages: ["it", "en", "de"]
+# languages: ["it", "en", "de"]
+languages: ["it", "en"]
 default_lang: "it"
 exclude_from_localization: ["javascript", "images", "css", "assets", "Old Website"]
 parallel_localization: true
