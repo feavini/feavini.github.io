@@ -5,7 +5,7 @@ gem "kramdown", ">= 2.3.0"
 # gem "kramdown", ">= 2.3.1"
 group :jekyll_plugins do
    gem "jekyll-polyglot"
-   gem "github-pages", "~> 214"
+   gem "github-pages", "~> 226"
    # gem "jekyll-feed"
    gem "jekyll-sitemap"
 end
