@@ -80,30 +80,24 @@ footer strong a,
     font-size: 1em;
 }
 
-footer address b {
-    font-style: normal;
-} 
-
-footer strong a .fa-fw {
-    vertical-align: middle;
-    font-size: 0.65em;
+footer .custom_footer {
+    float: right; 
+    display: flex;
 }
 
-footer .powered {
-    /* Do not show copyright to visitors but let it count for browsers. */
-    color: #f2f3f3 !important;
+footer .custom_footer p {
+    font-style: italic;
+
+}
+footer .custom_footer .nota {
+    max-width: 450px; 
+    padding-right: 1.5em;
 }
 
-footer address {
-    float: right
+footer .custom_footer .address{
+    max-width: 300px; 
 }
 
-footer address .directions {
-   /*
-   font-family: $header-font-family; 
-   */
-   font-style: normal;
-}
 
 .masthead .masthead__inner-wrap {
     padding: 0.5em;

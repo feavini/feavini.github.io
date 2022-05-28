@@ -1,5 +1,28 @@
-<div class="address">
-    <address>
+<div class="custom_footer">
+    <div class="nota">
+            {% if site.active_lang == "it" %}
+            <p>
+                Siamo aperti dal Lunedi al Sabato dalle 09:00 alle 12:00 e
+                dalle 14:30 alle 18:00. La domenica su prenotazione.
+            </p>
+            <p>
+                Effettuiamo visite e degustazione sia di gruppo che singole 
+                esclusivamente su prenotazione.
+            </p>
+            {% else %}
+            <p>
+                We are open Monday to Saturday from 9am to 12pm and from 2:30pm to 6pm.
+                Sunday by reservation only.
+            </p>
+            <p>
+                We offer guided visits and wine tastings, both for individuals
+                as well as for groups, only by reservation.
+            </p>
+            {% endif %}
+
+    </div>
+    <div class="address">
+        <p>
         {% if site.active_lang == "en" %}
         <b>Address</b>
         {% elsif site.active_lang == "de" %}
@@ -8,19 +31,18 @@
         <b>Indirizzo</b>
         {% endif %}
         <br/>
-        via Fea 11 <br/>
+        via Fea 10 <br/>
         14052 Calosso (AT) <br/>
-        Italia
-        Tel.: +39 3356130245
-        <br/>
-        <div class="map">
-            {% if site.active_lang == "en" %}
-            <strong><a class="directions" href="/arrivare"><i class="fa fa-fw fa-map"></i> how to get there</strong></a>
-            {% elsif site.active_lang == "de" %}
-            <strong><a class="directions" href="/arrivare"><i class="fa fa-fw fa-map"></i> Anfahrtsplan</strong></a>
-            {% else %}
-            <strong><a class="directions" href="/arrivare"><i class="fa fa-fw fa-map"></i> come arrivare</strong></a>
-            {% endif %}
-        </div>
-    </address>
+        Italia <br/>
+        Tel.: +39 3356130245 <br/>
+        {% if site.active_lang == "en" %}
+        <strong><a class="directions" href="/arrivare"><i class="fa fa-fw fa-map"></i> how to get there</strong></a>
+        {% elsif site.active_lang == "de" %}
+        <strong><a class="directions" href="/arrivare"><i class="fa fa-fw fa-map"></i> Anfahrtsplan</strong></a>
+        {% else %}
+        <strong><a class="directions" href="/arrivare"><i class="fa fa-fw fa-map"></i> come arrivare</strong></a>
+        {% endif %}
+        </p>
+    </div>
 </div>
+
