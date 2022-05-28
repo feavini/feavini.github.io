@@ -33,7 +33,8 @@ footer:
 
 markdown: kramdown
 
-remote_theme: mmistakes/minimal-mistakes@4.19.2
+# remote_theme: mmistakes/minimal-mistakes@4.24.0
+theme: minimal-mistakes-jekyll
 
 plugins:
   - jekyll-paginate
