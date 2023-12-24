@@ -27,7 +27,7 @@ search: false
 footer:
   links:
     - label: "Facebook"
-      icon: "fab fa-fw fa-facebook-square"
+      icon: "fab fa-facebook-square"
       url: "https://www.facebook.com/feavini/"
 
 
