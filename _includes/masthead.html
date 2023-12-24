@@ -11,6 +11,13 @@
           {{ site.masthead_title | default: site.title }}
           {% if site.subtitle %}<span class="site-subtitle">{{ site.subtitle }}</span>{% endif %}
         </a>
+        <a href="https://avelyn.com/de/estates/azienda_agricola_fea" target="_blank" id="buy-online" class="btn btn--primary btn--small"><i class="fas fa-shopping-cart"></i>
+            <span>
+                &nbsp;
+                {% if site.active_lang == "it" %} Ordina online {% else %} Buy online {% endif %}
+                <small><tt>(avelyn.com)</tt></small>
+            </span>
+        </a>
         <ul class="visible-links" id="language-selector">
           {% if site.search == true %}
               <li class="masthead_menu-item">

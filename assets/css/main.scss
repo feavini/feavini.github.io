@@ -134,6 +134,20 @@ a:hover {
     color: $wine-red;
 }
 
+.greedy-nav a#buy-online {
+  background-color: $wine-red;
+  color: white;
+  border: 0px;
+  border-radius: 0.4em;
+}
+
+.greedy-nav a#buy-online:hover {
+  background-color: $wine-red;
+  color: lightgray;
+  border: 0px;
+  border-radius: 0.4em;
+}
+
 .greedy-nav .visible-links a:before {
     {% comment %}
     /* The line under the navigation links is a weird thing. Check the css. */
